@@ -38,7 +38,7 @@ app.get('/error', (req, res, next) => {
 
 // create error 404
 app.use((req, res, next) => {
-  const err = new Error('Not Found');
+  const err = new Error('This page is not found');
   err.status = 404;
   console.log(err.status, err.message);
   next(err);
@@ -46,9 +46,15 @@ app.use((req, res, next) => {
 
 // global error handler
 app.use((err, req, res, next) => {
+  // passing in error object to response
   res.locals.error = err;
+  // passing the error status to response
   res.status(err.status || 500);
-  res.send(err.message);
+  if (err.status === 404) {
+    res.render('page-not-found');
+  } else {
+    res.render('error');
+  }
 });
 
 app.listen(PORT, console.log(`App listening on port ${PORT}`));
