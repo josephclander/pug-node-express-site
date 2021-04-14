@@ -15,6 +15,8 @@ Set up a server to serve the project
 
 ## Table of Contents
 
+[How to Use](#how-to-use)
+
 [Project Instructions](#project-instructions)
 
 [Extra Credit Instructions](#extra-credit-instructions)
@@ -22,6 +24,28 @@ Set up a server to serve the project
 [Browser Testing](#browser-testing)
 
 [Notes from the Build](#notes-from-the-build)
+
+## How to Use
+
+Install the node modules with
+
+```
+npm install
+```
+
+Scripts to start the server:
+
+- For development
+
+  ```
+  npm run dev
+  ```
+
+- For production
+
+  ```
+  npm start
+  ```
 
 ## Project Instructions
 
@@ -132,8 +156,44 @@ Set up a server to serve the project
 
 ## Browser Testing
 
-[TBC]
+Tested on the following browsers:
+
+- Chrome 89
+- Safari 14.0.
+- Firefox 88
+
+Tests done without finding any issues.
 
 ## Notes from the Build
 
-[TBC]
+- Port was set up as a variable to be able to change if to be used on a remote server where the code may be different. I considered implementing code that continued this use of `env` variables but realised the only point of this is to stop the error stack trace from coming back to the user in the browser. We are (optionally) setting the templates to render the trace so instead I set about making the trace readable by making the words wrap as there is overflow otherwise.
+
+- The error pages have been set up so that there is a distinction between `/` and `/project/` not found.
+
+- On that note, the styles for the index page classes were used to keep the styling of the error pages in keeping with the site. To keep this section clean the class, `.error`, has been implemented on the `styles.css` file.
+
+- New and Overriding CSS
+
+  - A new file, `custom.css`, was added with some new styles and some styles that would override those in `styles.css`. This is meant to keep the customisation separate from the `inbuilt library of css` used.
+
+  - CSS Customisations:
+
+    - color
+      - When the `.cell` class is hovered on the h5 color is changed to a green hue
+      - The 'learn more' link turns white on hover
+      - The `nav a` back links are set to turn green on hover
+    - background color
+      - The body, sidebar and header have a more subtle 'black' background color.
+    - font
+
+      - the fonts are varied and go together so not excited enough to change those
+
+    - box or text shadows
+
+      - When the `.cell` class is hovered on, the img tag increases in scale and has a box shadow added to appear to float.
+
+    - transitions or animations
+      - As mentioned for the box-shadow, the transition scale is increased on the img tag.
+      - The timing has been set so that the transitions are smooth.
+    - a custom logo
+      - A favicon has been created and linked via the `imgs` folder
