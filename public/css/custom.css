@@ -7,7 +7,7 @@ body,
 .cell img,
 h5,
 .dev-intro-box a,
-.project-tech-links-box .btn-link,
+.btn-link,
 nav a {
   transition: all 0.3s;
 }
@@ -26,6 +26,6 @@ nav a:hover {
   color: #ffffff;
 }
 
-.project-tech-links-box .btn-link:hover {
+.btn-link:hover {
   background-color: #6e6e6e;
 }
