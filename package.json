@@ -4,7 +4,8 @@
   "description": "An assignment to create a static website using Node.js and Express",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
