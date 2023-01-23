@@ -2,7 +2,8 @@ const express = require('express');
 const { projects } = require('./data.json');
 const path = require('path');
 const app = express();
-let PORT = 3000;
+require('dotenv').config()
+const PORT = process.env.port || 3000;
 
 app.set('view engine', 'pug');
 app.use('/static', express.static(path.join(__dirname, 'public')));
