@@ -7,8 +7,8 @@
       "technologies": ["HTML", "CSS", "jQuery"],
       "live_link": "https://josephclander.github.io/miniMaths/",
       "github_link": "https://github.com/josephclander/miniMaths",
-      "thumbnail_url": "miniMaths_square.png",
-      "image_urls": ["miniMaths_01.png", "miniMaths_02.png", "miniMaths_03.png"]
+      "thumbnail_url": "minimaths_square.png",
+      "image_urls": ["minimaths_01.png", "minimaths_02.png", "minimaths_03.png"]
     },
     {
       "id": 1,
