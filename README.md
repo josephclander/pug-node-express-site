@@ -2,6 +2,10 @@
 Using Pug, Node.js and Express to create a portfolio site with a modern landing page, 
 I use Pug to complete templates to generate the markup that is ultimately displayed in the browser.
 
+## Screenshot
+
+<img width="300px" src="https://user-images.githubusercontent.com/19231569/214073615-259f13fd-d6b4-4819-beab-e61efeddc823.png">
+
 ## Notes
 I use Node.js and Express to:
 
