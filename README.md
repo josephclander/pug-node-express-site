@@ -1,10 +1,9 @@
-# Static Node.js and Express Site
+# Static Pug, Node.js and Express Site
+Using Pug, Node.js and Express to create a portfolio site with a modern landing page, 
+I use Pug to complete templates to generate the markup that is ultimately displayed in the browser.
 
-In this Team Treehouse project, you will use Pug, Node.js and Express to create a portfolio site. The site will contain a modern landing page, an about page where you'll have a chance to share contact info and a series of project pages to show off and detail at least your first five projects from this Techdegree.
-
-You'll use Pug to complete templates to generate the markup that is ultimately displayed in the browser.
-
-You'll use Node.js and Express to:
+## Notes
+I use Node.js and Express to:
 
 Import the required dependencies
 Link the JSON with the Pug templates
@@ -47,7 +46,7 @@ Scripts to start the server:
   npm start
   ```
 
-## Project Instructions
+## Project requirements
 
 1. Initialize your project
    -Open the command line, navigate to your project, and run the npm init command to set up your `package.json` file.
