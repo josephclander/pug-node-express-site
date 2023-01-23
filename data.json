@@ -1,55 +1,76 @@
-{ "projects": [{
-    "id": 0,
-    "project_name": "miniMaths",
-    "description": "My first website created to house my maths tutorials.",
-    "technologies": ["HTML", "CSS", "jQuery"],
-    "live_link": "https://josephclander.github.io/miniMaths/",
-    "github_link": "https://github.com/josephclander/miniMaths",
-    "thumbnail_url": "miniMaths_square.png",
-    "image_urls": ["miniMaths_01.png", "miniMaths_02.png", "miniMaths_03.png"]
-}, {
-    "id": 1,
-    "project_name": "Web App Dashboard",
-    "description": "A Treehouse Frontend Tech Degree project assignment - The task was to create a Web App Dashboard with graphing widgets and form sections.",
-    "technologies": ["Gulp", "Sass"],
-    "live_link": "https://josephclander.github.io/Treehouse_web_app_dashboard/",
-    "github_link": "https://github.com/josephclander/Treehouse_web_app_dashboard",
-    "thumbnail_url": "web_app_dashboard_square.png",
-    "image_urls": ["web_app_dashboard_01.png", "web_app_dashboard_02.png", "web_app_dashboard_03.png"]
-}, {
-    "id": 2,
-    "project_name": "tictactoe",
-    "description": "My implementation of the classic game from a simple, game logic perspective",
-    "technologies": ["Javascript", "HTML", "CSS", "npm"],
-    "live_link": "https://josephclander.github.io/Noughts_and_Crosses/",
-    "github_link": "https://github.com/josephclander/Noughts_and_Crosses",
-    "thumbnail_url": "tictactoe_square.png",
-    "image_urls": ["tictactoe_01.png", "tictactoe_02.png"]
-}, {
-    "id": 3,
-    "project_name": "Personal Portfolio - Jan 2021",
-    "description": "This is the portfolio page I created before entering onto the Treehouse Full-Stack Degree",
-    "technologies": ["Javascript", "Sass", "CSS Animations"],
-    "live_link": "https://josephclander.com/",
-    "github_link": "https://github.com/josephclander/portfolio-jan2021",
-    "thumbnail_url": "portfolio_2021_square.png",
-    "image_urls": ["portfolio_2021_01.png", "portfolio_2021_02.png", "portfolio_2021_03.png"]
-}, {
-    "id": 4,
-    "project_name": "OOP Game",
-    "description": "An Object-Oriented Programming assignment from Treehouse.",
-    "technologies": ["Javascript", "OOP"],
-    "live_link": "https://josephclander.github.io/tfs-object-oriented-programming-game/",
-    "github_link": "https://github.com/josephclander/tfs-object-oriented-programming-game",
-    "thumbnail_url": "oop_game_square.png",
-    "image_urls": ["oop_game_01.png", "oop_game_02.png", "oop_game_03.png"]
-}, {
-    "id": 5,
-    "project_name": "API - Employee Directory",
-    "description": "An assignment from Treehouse to create an employee directory that collects data from a public API",
-    "technologies": ["Javascript", "API", "Fetch"],
-    "live_link": "https://josephclander.github.io/tfs-public-api-request/",
-    "github_link": "https://github.com/josephclander/tfs-public-api-request",
-    "thumbnail_url": "api_directory_square.png",
-    "image_urls": ["api_directory_01.png", "api_directory_02.png", "api_directory_03.png"]
-}]}
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "miniMaths",
+      "description": "My first website created to house my maths tutorials.",
+      "technologies": ["HTML", "CSS", "jQuery"],
+      "live_link": "https://josephclander.github.io/miniMaths/",
+      "github_link": "https://github.com/josephclander/miniMaths",
+      "thumbnail_url": "miniMaths_square.png",
+      "image_urls": ["miniMaths_01.png", "miniMaths_02.png", "miniMaths_03.png"]
+    },
+    {
+      "id": 1,
+      "project_name": "Web App Dashboard",
+      "description": "A Treehouse Frontend Tech Degree project assignment - The task was to create a Web App Dashboard with graphing widgets and form sections.",
+      "technologies": ["Gulp", "Sass"],
+      "live_link": "https://josephclander.github.io/web_app_dashboard/",
+      "github_link": "https://github.com/josephclander/web_app_dashboard",
+      "thumbnail_url": "web_app_dashboard_square.png",
+      "image_urls": [
+        "web_app_dashboard_01.png",
+        "web_app_dashboard_02.png",
+        "web_app_dashboard_03.png"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "tictactoe",
+      "description": "My implementation of the classic game from a simple, game logic perspective",
+      "technologies": ["Javascript", "HTML", "CSS", "npm"],
+      "live_link": "https://josephclander.github.io/Noughts_and_Crosses/",
+      "github_link": "https://github.com/josephclander/Noughts_and_Crosses",
+      "thumbnail_url": "tictactoe_square.png",
+      "image_urls": ["tictactoe_01.png", "tictactoe_02.png"]
+    },
+    {
+      "id": 3,
+      "project_name": "Personal Portfolio - Jan 2021",
+      "description": "This is the portfolio page I created before entering onto the Treehouse Full-Stack Degree",
+      "technologies": ["Javascript", "Sass", "CSS Animations"],
+      "live_link": "https://josephclander.com/",
+      "github_link": "https://github.com/josephclander/portfolio-jan2021",
+      "thumbnail_url": "portfolio_2021_square.png",
+      "image_urls": [
+        "portfolio_2021_01.png",
+        "portfolio_2021_02.png",
+        "portfolio_2021_03.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "OOP Game",
+      "description": "An Object-Oriented Programming assignment from Treehouse.",
+      "technologies": ["Javascript", "OOP"],
+      "live_link": "https://josephclander.github.io/OOP-game-phrasehunter/",
+      "github_link": "https://github.com/josephclander/OOP-game-phrasehunter",
+      "thumbnail_url": "oop_game_square.png",
+      "image_urls": ["oop_game_01.png", "oop_game_02.png", "oop_game_03.png"]
+    },
+    {
+      "id": 5,
+      "project_name": "API - Employee Directory",
+      "description": "An assignment from Treehouse to create an employee directory that collects data from a public API",
+      "technologies": ["Javascript", "API", "Fetch"],
+      "live_link": "https://josephclander.github.io/tfs-public-api-request/",
+      "github_link": "https://github.com/josephclander/tfs-public-api-request",
+      "thumbnail_url": "api_directory_square.png",
+      "image_urls": [
+        "api_directory_01.png",
+        "api_directory_02.png",
+        "api_directory_03.png"
+      ]
+    }
+  ]
+}
